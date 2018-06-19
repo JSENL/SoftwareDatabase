@@ -1,0 +1,24 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "Boston Software Jobs Database v1",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "JSENL"
+  },
+  "keywords": [
+    "software",
+    "jobs"
+  ],
+  "author": "Jasen Lambright",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
