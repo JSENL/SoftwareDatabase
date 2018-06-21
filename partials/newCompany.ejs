@@ -2,13 +2,16 @@
 <h1>
   Create a new company
 </h1>
+<div class="row">
+  
+
 <form action="/companies" method="post">
   
-   Name:<input type="text" name="name" placeholder="Company name"/><br>
-  Logo URL: <input type="text" name="image" placeholder="logo URL"/><br>
-  <input type="submit" value="Save" >post</input>
+   Name:<input type="text" name="name" placeholder="Company name" class="form-control"/><br>
+  Logo URL: <input type="text" name="image" class="form-control" placeholder="logo URL"/><br>
+  <input type="submit" value="Save" class="btn btn-large btn-default">post</input>
     </form>
- 
+ </div>
 <a href="/">Landing Page</a>
 <a href="/companies">View all Companies</a>
 <a href="/companies/new">Add a company</a>
