@@ -1,4 +1,4 @@
- <%include ../partials/header %>
+ <%include partials/header %>
  
 <!-- <nav class="navbar" class="navbar-default">
   <div>
@@ -17,17 +17,17 @@
   <p>
     Following is a list of the top 100 employers of software developers in the Boston area.
   </p>
-  <a class="btn btn-primary btn-large" href="/companies/new">Add a company</a>
+  <a class="btn btn-primary btn-large" href="/newCompany">Add a company</a>
   </header>
  <div class="row">
    <% for(let i = 0; i < displayCompanies.length; i++) { %>
  
    <div class="col-md-3 col-sm-6">
      <div class="thumbnail">
- <img src = '<%= displayCompanies[i].image %>'> 
+ <img src = '<%= displayCompanies[i] %>'> 
          
        <div class="caption">
-       <%= displayCompanies[i].name %>
+       <%= displayCompanies[i] %>
   </div>
   </div>
    </div>
@@ -37,7 +37,7 @@
    </div> 
 <a href="/">Landing Page</a>
   </div>
-<%include ../partials/footer %>
+<%include partials/footer %>
 
 
     
